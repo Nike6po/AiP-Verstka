@@ -1,0 +1,92 @@
+body, ul {
+	background-color: rgb(232, 232, 232);
+}
+
+
+header {
+	width: 1300px;
+	margin: auto;
+	padding: 10px;
+	background-color: rgb(29, 41, 41);
+}
+
+p {
+    margin-bottom: 10px;
+	text-align: justify;
+	font: 16.5px "Arial"
+}
+
+td {
+	font: 17px "Times New Roman";
+	text-align: center;
+}
+
+th {
+	font: 17px "Times New Roman";
+	background-color: lightgrey;
+	font-weight: 700;
+}
+
+.container {
+	display: flex;
+	background-color: white;
+}
+main {
+	width: 350px;
+	padding: 10px;
+	margin-right: 10px;
+}
+.left {
+	width: 550px;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: -7px auto;
+}
+
+
+footer {
+	padding: 30px 0;
+	font: 18px "Times New Roman";
+	color: white;
+	background-color: rgb(255, 191, 0);
+	text-align: center;
+}
+
+.sitename {
+	margin-bottom: 10px;
+	font: 20px Arial;
+}
+nav {
+	display: flex;
+	width: 600px;
+}
+nav a {
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	font: 20px Arial;
+}
+nav a:hover, nav a.active {
+	text-decoration: underline;
+}
+h1 {
+	font: 21px "Arial";
+	font-weight: 700;
+}
+main h1 {
+	font-size: 19px;
+}
+
+main p {
+	text-align: justify;
+	font: 15px Arial;
+}
