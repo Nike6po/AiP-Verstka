@@ -1,0 +1,62 @@
+.sel1 p{
+    color: red;
+}
+
+.sel2 h2{
+    color: orange;
+}
+
+#block p{
+    color: yellow;
+}
+
+#block h2{
+    color: green;
+}
+
+.bbb{
+    color: blue;
+}
+
+#block .bbb{
+    color: purple;
+}
+
+p.bbb{
+    color: pink;
+}
+h2.bbb{
+    color: pink;
+}
+
+#block p.bbb{
+    color:violet;
+}
+
+.bbb, .xxx{
+    color:tomato;
+}
+
+p.bbb, h2.xxx{
+    color:brown;
+}
+
+#block p.bbb, #block p.xxx{
+    color:silver;
+}
+
+.fff{
+    color:yellowgreen;
+}
+
+.fff p {
+    color:teal;
+}
+
+.fff .bbb{
+    color:skyblue;
+}
+
+.fff h2.bbb{
+    color:seagreen;
+}

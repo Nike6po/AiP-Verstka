@@ -1,0 +1,389 @@
+h1,h2,h3 {
+	text-align: center;
+}
+
+h1,h2,h3 {
+	text-align: center;
+}
+h2 {
+	color: blue;
+}
+h3 {
+	font-size: 16px;
+	color: red;
+}
+
+ul li i {
+    color: red;
+}
+p i {
+	color: green;
+}
+
+p b i {
+	color: red;
+}
+
+li > b {
+    color: red;
+}
+
+.odd {
+	color: red;
+}
+
+.eve {
+	color:green;
+}
+
+.eee{
+	color: red;
+}
+
+.xxx{
+	font-size: 30px;
+}
+
+.o1{
+	color: red;
+}
+
+.o2{
+	color: green;
+}
+
+.o3{
+	color: blue;
+}
+
+.eee {
+	font-size: 20px;
+}
+.zzz {
+	font-size: 30px;
+}
+
+.eee, .zzz {
+	line-height: 1.5;
+	font-family: Arial;
+}
+
+.eee {
+	font-size: 20px;
+}
+.zzz {
+	font-size: 30px;
+}
+.ggg {
+	font-size: 35px;
+}
+
+.eee, .zzz, .ggg {
+	text-align: center;
+	font-family: Arial;
+}
+
+h2.header {
+	color: red;
+	font-size: 40px;
+}
+
+h3.header {
+	color: red;
+	font-size: 30px;
+}
+
+.eee i {
+	color: red;
+}
+
+.block .header {
+	font-family: Arial;
+}
+.block h2.header {
+	font-size: 30px;
+	color: red;
+}
+.block h3.header {
+	font-size: 20px;
+	color: green;
+}
+
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+#elem1{
+	color: red;
+}
+
+#elem2{
+	color: green;
+}
+
+#elem3{
+	color: blue;
+}
+
+#block{
+	color: #EB6AA4;
+}
+
+.text{
+	font-family: Verdana;
+}
+
+#elem h2{
+	color: yellow;
+}
+
+#elem .text {
+	font-size: 50px;
+}
+
+#elem .text {
+	font-size: 20px;
+}
+
+#elem li.text {
+	color: #EB6AA4;
+}
+
+.eee.zzz.ccc{
+	color:bisque;
+}
+
+#block h1, #block h2 {
+	text-align: center;
+}
+
+#block h1, #block h2{
+	text-align: center;
+	font-size: 30px;
+}
+#block h2 {
+	font-size: 20px;
+}
+
+#block h1, #block h2, #block h3 {
+	text-align: center;
+}
+#block h2 {
+	color: blue;
+}
+#block h3 {
+	font-size: 16px;
+	color: red;
+}
+
+#block h1.eee, #block h2.zzz {
+	text-align: center;
+}
+#block h2.zzz {
+	font-size: 20px;
+}
+
+#block h1.eee{
+	font-size: 30px;
+}
+
+.xxx .kkk, .eee h2.zzz, #eee h2 {
+	text-align: center;
+}
+
+.eee h2.zzz, .xxx {
+	text-align: center;
+}
+
+#elem + li{
+	font-size: 40px;
+}
+
+.elem + li{
+	font-size: 40px;
+}
+
+#elem ~ li{
+	font-family: Verdana;
+}
+
+main * p {
+	font-size: 10px;
+}
+
+[title] { /*выбирает все элементы с атрибутом title*/
+  color:red;
+}
+
+p[title] { /*выбирает все абзацы с атрибутом title*/
+  color:orange;
+}
+
+p[title='hello'] { /*выбирает все абзацы с атрибутом title, который равен hello*/
+  color:yellow;
+}
+
+a[href^="http://"] {
+	color:green;
+  /* начинающимся на "http://" */
+}
+
+a[href$=".html"] {
+	color:blue;
+  /* заканчивающимся на ".html" */
+}
+
+p[title*="hello"] {
+	color:purple;
+  /* содержащим "hello" */
+}
+
+p[class^="top-"] {
+	color:pink;
+  /* начинающимся на "top-" */
+}
+
+a:link {
+	color: blue;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+a:active {
+	color: black;
+}
+
+
+a{
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+
+li:first-child{
+	color:red;
+}
+
+li:last-child{
+	color:green;
+}
+
+li:nth-child(3n){
+	color: red;
+}
+
+li:nth-child(odd){
+	color: brown;
+}
+
+li:nth-child(even){
+	color: pink;
+}
+
+li:nth-child(3){
+	color: green;
+}
+
+li:nth-last-child(3){
+	color: blue;
+}
+
+li:only-child {
+	color: red;
+}
+
+ul {
+	margin-bottom: 10px; /*расстояние между абзацем снизу и сверху 10 пикс*/
+}
+
+li:nth-child(1){
+	border: 1px solid red;
+	color: black;
+	margin-bottom: 5px;
+	width: 100px;
+}
+li:nth-child(2){
+	border: 1px solid red;
+	color: black;
+	margin-bottom: 5px;
+	width: 100px;
+}
+li:nth-child(3){
+	border: 1px solid red;
+	color: black;
+	margin-bottom: 5px;
+	width: 100px;
+}
+
+li:empty {
+	border: 1px solid blue;
+	color: blue;
+	margin-bottom: 5px;
+	width: 100px;
+}
+
+p:first-of-type {
+	color: red;
+}
+
+h2:last-of-type {
+	color: orange;
+}
+
+h2:nth-of-type(2) {
+	color: yellow;
+}
+
+h2:nth-of-type(even) {
+	color: red;
+}
+
+h2:nth-of-type(odd) {
+	color: blue;
+}
+
+h2:nth-last-of-type(2) {
+	color: green;
+}
+
+h2:nth-last-of-type(even) {
+	color: yellow;
+}
+
+h2:nth-last-of-type(odd) {
+	color: fuchsia;
+}
+
+div {
+	border: 1px dashed black; /*dashed - обводит пунктиром*/
+	padding: 15px; /*Устанавливает отступ (внутренний отступ) вокруг содержимого внутри <div> на 15 пикселей со всех сторон.*/
+	margin-bottom: 10px;
+}
+h2:only-of-type {
+	color: pink;
+}
+
+li:not(.elem) {
+	color: darkblue;
+}
+
+li:not(:first-child):not(:last-child) { /*выберет все li, кроме первой и последней.*/
+	font-size: 40px;
+}

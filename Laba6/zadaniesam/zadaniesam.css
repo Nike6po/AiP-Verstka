@@ -1,0 +1,27 @@
+body {
+    padding: 60px 0;
+	width: 1080px;
+    margin: -7px auto;
+}
+
+.zagolovok {
+        text-align: center;
+        border: 2px solid black;
+}
+
+.zzz, .ccc, .xxx{
+    
+    border: 1px solid black;
+}
+
+.zzz{
+    line-height: 1;
+}
+
+.xxx {
+	line-height: 1.5;
+}
+
+.ccc{
+    line-height: 2;
+}
